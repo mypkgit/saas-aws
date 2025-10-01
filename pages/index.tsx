@@ -23,7 +23,7 @@ export default function Home() {
             <SignedIn>
               <div className="flex items-center gap-4">
                 <Link 
-                  href="/products" 
+                  href="/product" 
                   className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition-colors"
                 >
                   Go to App
@@ -53,7 +53,7 @@ export default function Home() {
             </SignInButton>
           </SignedOut>
           <SignedIn>
-            <Link href="/products">
+            <Link href="/product">
               <button className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition-all transform hover:scale-105">
                 Generate Ideas Now
               </button>
